@@ -9,5 +9,8 @@ public record ExchangeRateResponse(
         long time_next_update_unix,
         String time_next_update_utc,
         String base_code,
-        ConversionRates conversion_rates) {
+        String target_code,
+        double conversion_rate,
+        double conversion_result,
+        AdmittedConversionRates conversion_rates) {
 }
