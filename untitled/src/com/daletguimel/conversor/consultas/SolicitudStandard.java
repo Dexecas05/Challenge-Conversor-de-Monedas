@@ -1,5 +1,6 @@
 package com.daletguimel.conversor.consultas;
 
+import com.daletguimel.conversor.respuestas.ExchangeRateResponse;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -28,7 +29,7 @@ public class SolicitudStandard {
     }
 
     public String formatearRespuesta(ExchangeRateResponse respuesta){
-        return "Resultado: " + respuesta.result() + "\n" +
+        return "\nResultado: " + respuesta.result() + "\n" +
                 "Última actualización: " + respuesta.time_last_update_utc() + "\n" +
                 "Próxima actualización: " + respuesta.time_next_update_utc() + "\n" +
                 "Moneda base: " + respuesta.base_code() + "\n" +
