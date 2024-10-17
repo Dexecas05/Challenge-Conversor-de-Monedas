@@ -1,4 +1,4 @@
-package com.daletguimel.conversor.consultas;
+package com.daletguimel.conversor.respuestas;
 
 public record ExchangeRateResponse(
         String result,
