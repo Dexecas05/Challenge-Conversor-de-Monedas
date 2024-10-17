@@ -24,8 +24,11 @@ public class MainDePruebas {
                 try {
                     ExchangeRateResponse respuesta = solicitudStandard.obtenerDatos();
                     System.out.println(solicitudStandard.formatearRespuesta(respuesta));
-                } catch (IOException | InterruptedException e) {
-                    e.printStackTrace();
+                } catch (IOException e) {
+                    System.err.println("Error al realizar la solicitud: " + e.getMessage());
+                } catch (InterruptedException e) {
+                    System.err.println("La solicitud fue interrumpida: " + e.getMessage());
+                    Thread.currentThread().interrupt(); // Restablecer el estado de interrupción
                 }
                 break;
             case 2:
@@ -40,8 +43,11 @@ public class MainDePruebas {
                 try {
                     ExchangeRateResponse respuesta = solicitudPairConversion.obtenerDatos();
                     System.out.println(solicitudPairConversion.formatearRespuesta(respuesta));
-                } catch (IOException | InterruptedException e) {
-                    e.printStackTrace();
+                } catch (IOException e) {
+                    System.err.println("Error al realizar la solicitud: " + e.getMessage());
+                } catch (InterruptedException e) {
+                    System.err.println("La solicitud fue interrumpida: " + e.getMessage());
+                    Thread.currentThread().interrupt(); // Restablecer el estado de interrupción
                 }
                 break;
             default:
