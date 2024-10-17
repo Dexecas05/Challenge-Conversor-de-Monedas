@@ -4,7 +4,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Java Version](https://img.shields.io/badge/Java-11+-orange)
-![Repo Size](https://img.shields.io/github/repo-size/Dexecas/conversor-monedas)
+![Repo Size](https://img.shields.io/github/repo-size/Dexecas/Challenge-conversor-de-monedas)
 
 
 ## Descripción
