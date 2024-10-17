@@ -1,7 +1,7 @@
 # Conversor de Monedas
 
 ## Descripción
-Este proyecto es un conversor de monedas desarrollado en Java que permite consultar tasas de cambio actuales y realizar conversiones entre diferentes monedas utilizando la API Exchange Rate ([https://www.exchangerate-api.com/]). Incluye características avanzadas como el historial de conversiones y persistencia de datos en formato JSON.
+Este proyecto es un conversor de monedas desarrollado en Java que permite consultar tasas de cambio actuales y realizar conversiones entre diferentes monedas utilizando la (API Exchange Rate)[https://www.exchangerate-api.com/]. Incluye características avanzadas como el historial de conversiones y persistencia de datos en formato JSON.
 
 ## Características
 - Consulta estándar de tasas de cambio actuales.
