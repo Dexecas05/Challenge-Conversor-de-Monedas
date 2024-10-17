@@ -1,7 +1,14 @@
 # Conversor de Monedas
 
+## Insignias
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Java Version](https://img.shields.io/badge/Java-11+-orange)
+![Repo Size](https://img.shields.io/github/repo-size/Dexecas/conversor-monedas)
+
+
 ## Descripción
-Este proyecto es un conversor de monedas desarrollado en Java que permite consultar tasas de cambio actuales y realizar conversiones entre diferentes monedas utilizando la API Exchange Rate[https://www.exchangerate-api.com/]. Incluye características avanzadas como el historial de conversiones y persistencia de datos en formato JSON.
+Este proyecto es un conversor de monedas desarrollado en Java que permite consultar tasas de cambio actuales y realizar conversiones entre diferentes monedas utilizando la [API Exchange Rate](https://www.exchangerate-api.com/). Incluye características avanzadas como el historial de conversiones y persistencia de datos en formato JSON.
 
 ## Características
 - Consulta estándar de tasas de cambio actuales.
@@ -16,7 +23,7 @@ Este proyecto es un conversor de monedas desarrollado en Java que permite consul
    git clone https://github.com/tu_usuario/conversor-monedas.git
    cd conversor-monedas
 2. **Configura tu APIKEY:**
-   - Asegúrate de tener tu API Key de Exchange Rate (puedes solicitarla de forma gratuita en: [https://www.exchangerate-api.com/]).
+   - Asegúrate de tener tu API Key de Exchange Rate ([puedes solicitarla de forma gratuita](:https://www.exchangerate-api.com/)).
    - Añádela a las variables de entorno de tu sistema:
    ```sh
    export EXCHANGE_RATE_APIKEY=tu_apikey
